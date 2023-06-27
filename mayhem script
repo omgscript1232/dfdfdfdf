@@ -1,0 +1,259 @@
+local ohString1 = "Kawalski Samurai H2R"
+    local ohVector32 = Vector3.new(0, 0, 0)
+ 
+    game:GetService("ReplicatedStorage").SpawnVeh:FireServer(ohString1, ohVector32) (mayhem)
+
+
+
+
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "🔥 DirlySs op script hub 🔫",
+   LoadingTitle = " 🏍️ Motorcycle Mayhem 🏍️",
+   LoadingSubtitle = "by Coolguy", 
+   ConfigurationSaving = {
+      Enabled = false,
+      FolderName = ????, -- Create a custom folder for your hub/game
+      FileName = "Malware,jk"
+   },
+   Discord = {
+      Enabled = false,
+      Invite = "jdSe2Xr3" -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
+      RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+   },
+   KeySystem = true, -- Set this to true to use our key system
+   KeySettings = {
+      Title = "Key | Youtube Hub",
+      Subtitle = "Key System",
+      Note = "Key In Discord Server",
+      FileName = "YoutubeHubKey1", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+      SaveKey = false, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+      GrabKeyFromSite = true, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = {"https://pastebin.com/raw/inyY0BkB"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+   }
+})
+
+local MainTab = Window:CreateTab("🏠 Bike", nil) -- Title, Image
+local MainSection = MainTab:CreateSection("Main")
+
+Rayfield:Notify({
+   Title = "You executed the script",
+   Content = "Very cool gui",
+   Duration = 5,
+   Image = 13047715178,
+   Actions = { -- Notification Buttons
+      Ignore = {
+         Name = "Okay!",
+         Callback = function()
+         print("The user tapped Okay!")
+      end
+   },
+},
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Donda CBR300R",
+   Callback = function()
+       local ohString1 = "Donda CBR300R"
+    local ohVector32 = Vector3.new(0, 0, 0)
+ 
+    game:GetService("ReplicatedStorage").SpawnVeh:FireServer(ohString1, ohVector32)
+   end,
+})
+
+
+local Button = MainTab:CreateButton({
+   Name = "Yamura R3",
+   Callback = function()
+       local ohString1 = "Yamura R3"
+    local ohVector32 = Vector3.new(0, 0, 0)
+ 
+    game:GetService("ReplicatedStorage").SpawnVeh:FireServer(ohString1, ohVector32)
+   end,
+})
+
+
+local Button = MainTab:CreateButton({
+   Name = "Alpha RC750",
+   Callback = function()
+       local ohString1 = "Alpha RC750"
+    local ohVector32 = Vector3.new(0, 0, 0)
+ 
+    game:GetService("ReplicatedStorage").SpawnVeh:FireServer(ohString1, ohVector32)
+   end,
+})
+
+
+
+
+local Button = MainTab:CreateButton({
+   Name = "Kawalski Samurai 300",
+   Callback = function()
+       local ohString1 = "Kawalski Samurai 300"
+    local ohVector32 = Vector3.new(0, 0, 0)
+ 
+    game:GetService("ReplicatedStorage").SpawnVeh:FireServer(ohString1, ohVector32)
+   end,
+})
+
+
+
+local Button = MainTab:CreateButton({
+   Name = "YZF Dirtbike",
+   Callback = function()
+       local ohString1 = "YZF Dirtbike"
+    local ohVector32 = Vector3.new(0, 0, 0)
+ 
+    game:GetService("ReplicatedStorage").SpawnVeh:FireServer(ohString1, ohVector32)
+   end,
+})
+
+
+
+local Button = MainTab:CreateButton({
+   Name = "Donda CBR 600RR",
+   Callback = function()
+       local ohString1 = "Donda CBR 600RR"
+    local ohVector32 = Vector3.new(0, 0, 0)
+ 
+    game:GetService("ReplicatedStorage").SpawnVeh:FireServer(ohString1, ohVector32)
+   end,
+})
+
+
+local Button = MainTab:CreateButton({
+   Name = "Yamura R6",
+   Callback = function()
+       local ohString1 = "Yamura R6"
+    local ohVector32 = Vector3.new(0, 0, 0)
+ 
+    game:GetService("ReplicatedStorage").SpawnVeh:FireServer(ohString1, ohVector32)
+   end,
+})
+
+
+
+
+local Button = MainTab:CreateButton({
+   Name = "Harlon David Hardtail",
+   Callback = function()
+       local ohString1 = "Harlon David Hardtail"
+    local ohVector32 = Vector3.new(0, 0, 0)
+ 
+    game:GetService("ReplicatedStorage").SpawnVeh:FireServer(ohString1, ohVector32)
+   end,
+})
+
+
+
+
+local Button = MainTab:CreateButton({
+   Name = "Harlon David ",
+   Callback = function()
+       local ohString1 = "Harlon David "
+    local ohVector32 = Vector3.new(0, 0, 0)
+ 
+    game:GetService("ReplicatedStorage").SpawnVeh:FireServer(ohString1, ohVector32)
+   end,
+})
+
+
+local Button = MainTab:CreateButton({
+   Name = "Yamura MT10 ",
+   Callback = function()
+       local ohString1 = "Yamura MT10 "
+    local ohVector32 = Vector3.new(0, 0, 0)
+ 
+    game:GetService("ReplicatedStorage").SpawnVeh:FireServer(ohString1, ohVector32)
+   end,
+})
+
+
+
+local Button = MainTab:CreateButton({
+   Name = "Samurai ZX10R",
+   Callback = function()
+       local ohString1 = "Samurai ZX10R"
+    local ohVector32 = Vector3.new(0, 0, 0)
+ 
+    game:GetService("ReplicatedStorage").SpawnVeh:FireServer(ohString1, ohVector32)
+   end,
+})
+
+
+
+
+local Button = MainTab:CreateButton({
+   Name = "Donda CBR1000RR Fireblade",
+   Callback = function()
+       local ohString1 = "Donda CBR1000RR Fireblade"
+    local ohVector32 = Vector3.new(0, 0, 0)
+ 
+    game:GetService("ReplicatedStorage").SpawnVeh:FireServer(ohString1, ohVector32)
+   end,
+})
+
+
+
+
+local Button = MainTab:CreateButton({
+   Name = "Beamer S1000RR",
+   Callback = function()
+       local ohString1 = "Beamer S1000RR"
+    local ohVector32 = Vector3.new(0, 0, 0)
+ 
+    game:GetService("ReplicatedStorage").SpawnVeh:FireServer(ohString1, ohVector32)
+   end,
+})
+
+
+
+local Button = MainTab:CreateButton({
+   Name = "MV Agustus",
+   Callback = function()
+       local ohString1 = "MV Agustus"
+    local ohVector32 = Vector3.new(0, 0, 0)
+ 
+    game:GetService("ReplicatedStorage").SpawnVeh:FireServer(ohString1, ohVector32)
+   end,
+})
+
+
+
+local Button = MainTab:CreateButton({
+   Name = "MV Agustus",
+   Callback = function()
+       local ohString1 = "MV Agustus"
+    local ohVector32 = Vector3.new(0, 0, 0)
+ 
+    game:GetService("ReplicatedStorage").SpawnVeh:FireServer(ohString1, ohVector32)
+   end,
+})
+
+
+
+
+local Button = MainTab:CreateButton({
+   Name = "Dugatti PR",
+   Callback = function()
+       local ohString1 = "Dugatti PR"
+    local ohVector32 = Vector3.new(0, 0, 0)
+ 
+    game:GetService("ReplicatedStorage").SpawnVeh:FireServer(ohString1, ohVector32)
+   end,
+})
+
+
+
+
+local Button = MainTab:CreateButton({
+   Name = "Kawalski Samurai H2R",
+   Callback = function()
+       local ohString1 = "Kawalski Samurai H2R"
+    local ohVector32 = Vector3.new(0, 0, 0)
+ 
+    game:GetService("ReplicatedStorage").SpawnVeh:FireServer(ohString1, ohVector32)
+   end,
+})
+
